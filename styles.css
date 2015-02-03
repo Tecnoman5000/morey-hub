@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1-Feb-2015, 3:53:51 PM
+    Author     : tecno
+*/
+* { box-sizing:border-box; }
+
+html,head,body,img,table,tr,td,p,textarea,input,form{padding:0px; margin:0px;}
+
+html,body{
+    background-color: #1f1f1f;
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    color: #CECCCC;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+h1, h3 { font-weight: 300; }
+
+h1 { color: #636363; }
+
+h3 { color: #4a89dc; }
+
+header{
+    background-color: #000000;
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 3px rgba(0,0,0,.3);
+}
+
+span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+#header_content{
+    padding-left: 1%;
+}
+
+#clock{
+    text-align: right;
+    padding-right: 2%;
+}
+
+a:link.logout_button,a:visited.logout_button,a:hover.logout_button,a:active.logout_button{
+	text-decoration:none;
+	color:#ffffff;
+}
+
+#menu{
+    z-index: 1000;
+}
+
+footer{
+    height: 80px; 
+    width:100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #000000;
+    display: block;
+    box-sizing: border-box;
+}
+
+.content{
+    //min-height: 100%;
+    position:relative;
+    padding-bottom: 80px;
+}
+
+
+.login_form{
+    
+}
+
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 12.5px solid transparent;
+    border-left: 25px solid #00FF99;
+    border-bottom: 12.5px solid transparent;
+        
+    transform: rotate(90deg);
+    -ms-transform:rotate(90deg); /* IE 9 */
+    -moz-transform:rotate(90deg); /* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari and Chrome */
+    -o-transform:rotate(90deg); /* Opera */
+}
